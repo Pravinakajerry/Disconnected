@@ -35,6 +35,29 @@ h1 {
     text-decoration: none;
   }
 
+ .paragraph.button {
+  position: relative;
+  padding: 5px 16px 3px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 100px;
+  background-color: transparent;
+  color: #000;
+}
+
+ .paragraph.button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 @media screen and (max-width: 767px) {
    
     h1 {
