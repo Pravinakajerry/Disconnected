@@ -76,6 +76,7 @@ p {
 
 #sitename {
 	animation: pulse 10s;
+	font-size: 18px;
 }
 
 #sitename:before {
