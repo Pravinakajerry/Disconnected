@@ -76,7 +76,7 @@ p {
 
 #sitename {
 	animation: pulse 10s;
-	font-size: 18px;
+	font-size: 32px;
 }
 
 #sitename:before {
@@ -211,6 +211,10 @@ h1 {
         position: static;
     }
 
+    #sitename {
+	font-size: 24px;
+    }
+	
     .down {
         position: static;
     }
